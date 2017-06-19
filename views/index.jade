@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 Say Anything!
+  form(action="viewpage" method="get")
+    input(type="text", name="phrase", placeholder="enter a phrase", class="phrase-input" )
+    button(type="submit", id="submit-button") Submit
